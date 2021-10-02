@@ -35,6 +35,8 @@ public class Main {
                 }
             }
 
+            session.commit();
+
             List<Subscriber> subscribers = subscriberMapper.getSubscribers();
             System.out.println("dfd");
 
